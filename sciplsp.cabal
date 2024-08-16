@@ -79,6 +79,9 @@ executable sciplsp
                       , proto-lens
                       , proto-lens-runtime
                       , bytestring
+                      , fingertree
+                      , lens-family
+                      , containers
 
 
     -- Directories containing source files.

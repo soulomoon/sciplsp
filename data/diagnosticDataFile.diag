@@ -1,0 +1,19 @@
+
+4
+
+
+
+	2Â	GHC-40910$Defined but not used: â€˜toStringâ€™"ŒRealSrcSpan SrcSpanOneLine "src/MyLib.hs" 10 1 9 (Just (BufSpan {bufSpanStart = BufPos {bufPos = 111}, bufSpanEnd = BufPos {bufPos = 119}}))
+2
+
+2Á	GHC-40910#Defined but not used: â€˜toMaybeâ€™"ŒRealSrcSpan SrcSpanOneLine "src/MyLib.hs" 13 1 8 (Just (BufSpan {bufSpanStart = BufPos {bufPos = 156}, bufSpanEnd = BufPos {bufPos = 163}}))
+6
+
+2ü	GHC-62161±Pattern match(es) are non-exhaustive
+In an equation for â€˜toMaybeâ€™:
+    Patterns of type â€˜Maybe Intâ€™ not matched:
+        Nothing
+        Just p where p is not one of {1}"9RealSrcSpan SrcSpanOneLine "src/MyLib.hs" 13 1 21 Nothing
+2
+
+2¼	GHC-40910Defined but not used: â€˜mdâ€™"ŒRealSrcSpan SrcSpanOneLine "src/MyLib.hs" 16 1 3 (Just (BufSpan {bufSpanStart = BufPos {bufPos = 191}, bufSpanEnd = BufPos {bufPos = 193}}))

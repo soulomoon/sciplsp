@@ -1,0 +1,94 @@
+"Haskell
+testsrc/MyLib.hs˜
+{scheme: "ghc" package { manager: "cabal" name: "base" version: "4.19.1.0" } descriptors { name: "Show" disambiguator: "$base$GHC.Show$Show" }}œ
+.4“{scheme: "ghc" package { manager: "cabal" name: "base" version: "4.19.1.0" } descriptors { name: "String" disambiguator: "$base$GHC.Base$String" }}œ
+“{scheme: "ghc" package { manager: "cabal" name: "base" version: "4.19.1.0" } descriptors { name: "String" disambiguator: "$base$GHC.Base$String" }}
+
+”{scheme: "ghc" package { manager: "cabal" name: "ghc-prim" version: "0.11.0" } descriptors { name: "Int" disambiguator: "$ghc-prim$GHC.Types$Int" }}
+”{scheme: "ghc" package { manager: "cabal" name: "ghc-prim" version: "0.11.0" } descriptors { name: "Int" disambiguator: "$ghc-prim$GHC.Types$Int" }}
+”{scheme: "ghc" package { manager: "cabal" name: "ghc-prim" version: "0.11.0" } descriptors { name: "Int" disambiguator: "$ghc-prim$GHC.Types$Int" }}–
+{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "aaa" disambiguator: "$_in$aaa" }}–
+$'{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "aaa" disambiguator: "$_in$aaa" }}’
+‰{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "a" disambiguator: "$_in$a" }}’
+‰{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "a" disambiguator: "$_in$a" }}’
+‰{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "b" disambiguator: "$_in$b" }}’
+‰{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "b" disambiguator: "$_in$b" }}’
+‰{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "b" disambiguator: "$_in$b" }}’
+‰{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "b" disambiguator: "$_in$b" }}–
+{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "bbb" disambiguator: "$_in$bbb" }}–
+"{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "bbb" disambiguator: "$_in$bbb" }}–
+'*{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "bbb" disambiguator: "$_in$bbb" }}–
+{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "bbb" disambiguator: "$_in$bbb" }}š
+‘{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "showI" disambiguator: "$_in$showI" }}š
+
+‘{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "showI" disambiguator: "$_in$showI" }}š
+
+‘{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "showI" disambiguator: "$_in$showI" }}
+”{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "$dShow" disambiguator: "$_sys$$dShow" }}
+”{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "$dShow" disambiguator: "$_sys$$dShow" }}
+”{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "$dShow" disambiguator: "$_sys$$dShow" }}›
+’{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "$dNum" disambiguator: "$_sys$$dNum" }}›
+	’{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "$dNum" disambiguator: "$_sys$$dNum" }}›
+’{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "$dNum" disambiguator: "$_sys$$dNum" }}›
+’{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "$dNum" disambiguator: "$_sys$$dNum" }} 
+
+—{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "$cmyType" disambiguator: "$_in$$cmyType" }}œ
+	“{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "myType" disambiguator: "$_in$myType" }}È
+¿{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "MyData" disambiguator: "$scip-ghc-plugin-0.1.0.0-inplace-TestSrc$ModuleA$MyData" }}È
+  ¿{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "MyData" disambiguator: "$scip-ghc-plugin-0.1.0.0-inplace-TestSrc$ModuleA$MyData" }}ª
+(,¡{scheme: "ghc" package { manager: "cabal" name: "text" version: "2.1.1" } descriptors { name: "Text" disambiguator: "$text-2.1.1-2565$Data.Text.Internal$Text" }}‘
+	ˆ{scheme: "ghc" package { manager: "cabal" name: "base" version: "4.19.1.0" } descriptors { name: "+" disambiguator: "$base$GHC.Num$+" }}˜
+{scheme: "ghc" package { manager: "cabal" name: "base" version: "4.19.1.0" } descriptors { name: "show" disambiguator: "$base$GHC.Show$show" }}ª
+  ¡{scheme: "ghc" package { manager: "cabal" name: "text" version: "2.1.1" } descriptors { name: "pack" disambiguator: "$text-2.1.1-2565$Data.Text.Internal$pack" }}¾
+µ{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "go" disambiguator: "$scip-ghc-plugin-0.1.0.0-inplace-TestSrc$MyLib$go" }}¾
+µ{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "go" disambiguator: "$scip-ghc-plugin-0.1.0.0-inplace-TestSrc$MyLib$go" }}Ð
+
+Ç{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "$fMyTypeInt" disambiguator: "$scip-ghc-plugin-0.1.0.0-inplace-TestSrc$MyLib$$fMyTypeInt" }}Æ
+½{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "MyType" disambiguator: "$scip-ghc-plugin-0.1.0.0-inplace-TestSrc$MyLib$MyType" }}Æ
+
+½{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "MyType" disambiguator: "$scip-ghc-plugin-0.1.0.0-inplace-TestSrc$MyLib$MyType" }}È
+¿{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "IMyData" disambiguator: "$scip-ghc-plugin-0.1.0.0-inplace-TestSrc$MyLib$IMyData" }}È
+#¿{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "IMyData" disambiguator: "$scip-ghc-plugin-0.1.0.0-inplace-TestSrc$MyLib$IMyData" }}Æ
+	½{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "myType" disambiguator: "$scip-ghc-plugin-0.1.0.0-inplace-TestSrc$MyLib$myType" }}Æ
+	½{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "myType" disambiguator: "$scip-ghc-plugin-0.1.0.0-inplace-TestSrc$MyLib$myType" }}Æ
+	½{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "myType" disambiguator: "$scip-ghc-plugin-0.1.0.0-inplace-TestSrc$MyLib$myType" }}Ê
+	Á{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "toString" disambiguator: "$scip-ghc-plugin-0.1.0.0-inplace-TestSrc$MyLib$toString" }}Ê
+	Á{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "toString" disambiguator: "$scip-ghc-plugin-0.1.0.0-inplace-TestSrc$MyLib$toString" }}¾
+µ{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "md" disambiguator: "$scip-ghc-plugin-0.1.0.0-inplace-TestSrc$MyLib$md" }}¾
+  µ{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "md" disambiguator: "$scip-ghc-plugin-0.1.0.0-inplace-TestSrc$MyLib$md" }}Ÿ
+–{scheme: "ghc" package { manager: "cabal" name: "base" version: "4.19.1.0" } descriptors { name: "$fNumInt" disambiguator: "$base$GHC.Num$$fNumInt" }}Ê
+
+Á{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "C:MyType" disambiguator: "$scip-ghc-plugin-0.1.0.0-inplace-TestSrc$MyLib$C:MyType" }}   ¥
+{scheme: "ghc" package { manager: "cabal" name: "base" version: "4.19.1.0" } descriptors { name: "Show" disambiguator: "$base$GHC.Show$Show" }}(62Show:	"Haskell«
+“{scheme: "ghc" package { manager: "cabal" name: "base" version: "4.19.1.0" } descriptors { name: "String" disambiguator: "$base$GHC.Base$String" }}(72String:	"Haskell©
+”{scheme: "ghc" package { manager: "cabal" name: "ghc-prim" version: "0.11.0" } descriptors { name: "Int" disambiguator: "$ghc-prim$GHC.Types$Int" }}(62Int:	"Haskell¢
+{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "aaa" disambiguator: "$_in$aaa" }}(:2aaa:	"Haskellœ
+‰{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "a" disambiguator: "$_in$a" }}(:2a:	"Haskellœ
+‰{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "b" disambiguator: "$_in$b" }}(:2b:	"Haskellœ
+‰{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "b" disambiguator: "$_in$b" }}(:2b:	"Haskell¢
+{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "bbb" disambiguator: "$_in$bbb" }}(:2bbb:	"Haskell·
+‘{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "showI" disambiguator: "$_in$showI" }}(2showI:"Haskell*bbb -> String¶
+”{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "$dShow" disambiguator: "$_sys$$dShow" }}(=2$dShow:"Haskell*Show bbb¶
+”{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "$dShow" disambiguator: "$_sys$$dShow" }}(=2$dShow:"Haskell*Show bbb²
+’{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "$dNum" disambiguator: "$_sys$$dNum" }}(=2$dNum:"Haskell*Num Int²
+’{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "$dNum" disambiguator: "$_sys$$dNum" }}(=2$dNum:"Haskell*Num Int²
+’{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "$dNum" disambiguator: "$_sys$$dNum" }}(=2$dNum:"Haskell*Num IntÅ
+—{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "$cmyType" disambiguator: "$_in$$cmyType" }}(2$cmyType:"Haskell*forall b. b -> Int¿
+“{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "myType" disambiguator: "$_in$myType" }}(2myType:"Haskell*forall b. b -> Int×
+¿{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "MyData" disambiguator: "$scip-ghc-plugin-0.1.0.0-inplace-TestSrc$ModuleA$MyData" }}(62MyData:	"Haskell×
+¿{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "MyData" disambiguator: "$scip-ghc-plugin-0.1.0.0-inplace-TestSrc$ModuleA$MyData" }}(	2MyData:	"Haskell·
+¡{scheme: "ghc" package { manager: "cabal" name: "text" version: "2.1.1" } descriptors { name: "Text" disambiguator: "$text-2.1.1-2565$Data.Text.Internal$Text" }}(62Text:	"Haskell»
+ˆ{scheme: "ghc" package { manager: "cabal" name: "base" version: "4.19.1.0" } descriptors { name: "+" disambiguator: "$base$GHC.Num$+" }}(2+:)"Haskell*forall a. Num a => a -> a -> aÌ
+{scheme: "ghc" package { manager: "cabal" name: "base" version: "4.19.1.0" } descriptors { name: "show" disambiguator: "$base$GHC.Show$show" }}(2show:0"Haskell*%forall bbb. Show bbb => bbb -> StringÇ
+¡{scheme: "ghc" package { manager: "cabal" name: "text" version: "2.1.1" } descriptors { name: "pack" disambiguator: "$text-2.1.1-2565$Data.Text.Internal$pack" }}(2pack:"Haskell*String -> TextÉ
+µ{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "go" disambiguator: "$scip-ghc-plugin-0.1.0.0-inplace-TestSrc$MyLib$go" }}(=2go:	"Haskellî
+Ç{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "$fMyTypeInt" disambiguator: "$scip-ghc-plugin-0.1.0.0-inplace-TestSrc$MyLib$$fMyTypeInt" }}2$fMyTypeInt:"Haskell*
+MyType IntÕ
+½{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "MyType" disambiguator: "$scip-ghc-plugin-0.1.0.0-inplace-TestSrc$MyLib$MyType" }}(2MyType:	"HaskellØ
+¿{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "IMyData" disambiguator: "$scip-ghc-plugin-0.1.0.0-inplace-TestSrc$MyLib$IMyData" }}(62IMyData:	"HaskellØ
+¿{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "IMyData" disambiguator: "$scip-ghc-plugin-0.1.0.0-inplace-TestSrc$MyLib$IMyData" }}(	2IMyData:	"HaskellÕ
+½{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "myType" disambiguator: "$scip-ghc-plugin-0.1.0.0-inplace-TestSrc$MyLib$myType" }}(2myType:	"HaskellÛ
+Á{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "toString" disambiguator: "$scip-ghc-plugin-0.1.0.0-inplace-TestSrc$MyLib$toString" }}(2toString:	"HaskellÉ
+µ{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "md" disambiguator: "$scip-ghc-plugin-0.1.0.0-inplace-TestSrc$MyLib$md" }}(=2md:	"Haskell¹
+–{scheme: "ghc" package { manager: "cabal" name: "base" version: "4.19.1.0" } descriptors { name: "$fNumInt" disambiguator: "$base$GHC.Num$$fNumInt" }}(=2$fNumInt:"Haskell*Num IntÛ
+Á{scheme: "ghc" package { manager: "cabal" name: "scip-ghc-plugin" version: "0.1.0.0" } descriptors { name: "C:MyType" disambiguator: "$scip-ghc-plugin-0.1.0.0-inplace-TestSrc$MyLib$C:MyType" }}(	2C:MyType:	"Haskell0
