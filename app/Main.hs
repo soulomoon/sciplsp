@@ -56,7 +56,7 @@ handlers docContext =
         let TRequestMessage _ _ _ (HoverParams _doc pos _workDone) = req
             Position _l _c' = pos
             rsp = Hover (InL ms) (Just range)
-            posKind = getPosKind pos docContext
+            posKind = getPosKind (sub1 pos) docContext
             -- ms = mkMarkdown "Hello world"
             ms = mkMarkdown $ T.pack $ show $ showEnum <$> posKind
             range = Range pos pos
@@ -65,6 +65,9 @@ handlers docContext =
     ,  notificationHandler SMethod_WorkspaceDidChangeConfiguration $ \_not -> do
        return ()
     ]
+
+sub1 :: Position -> Position
+sub1 (Position l c) = Position (l + 1) (c + 1)
 
 documentFilePath :: TextDocumentIdentifier -> Maybe FilePath
 documentFilePath (TextDocumentIdentifier doc) = uriToFilePath doc
@@ -182,9 +185,9 @@ main = do
   let symf = length $ IM.search target intervalTree
   -- let symbolInfo = sym >>= flip M.lookup symbolMap
   -- print $ showEnum <$> symbolKind
-  print sym
+  -- print sym
   -- print symbolInfo
-  print intervalTree
+  -- print intervalTree
   -- print symbolMap
   runServer $
     ServerDefinition
